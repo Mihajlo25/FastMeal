@@ -1,0 +1,199 @@
+body{
+    background-color: #ecf0f3;
+    position: relative;
+  }
+
+  /* HEADER */
+#mainNavbar{
+    background-color: #faf9f3;
+  }
+#mainNavbar .navbar-brand{
+    color: #ff7814;
+  }
+  
+#mainNavbar .nav-link{
+    color:#f7b190;
+  }
+#mainNavbar .nav-link:hover{
+    color:#ff7814;
+  }
+#searchForm button{
+    background-color: transparent;
+    color: #f7b190;
+    border-radius: 0.5rem;
+    border: 2px solid #f7b190;
+  }
+#searchForm button:hover{
+    color: #ff7814;
+    border-color:#ff7814 ;
+  }
+  
+.container{
+    background-color: #FFF7C6;
+  }
+  
+.textBox{
+    color: #ff7814;
+    
+  }
+  
+#hamburger{
+    height: 35px;
+    width: auto;
+  }
+  
+.relativanOpis{
+    color: white;
+    background-color: #ff7814;
+    border-radius: 1px 1px 20px 20px;
+  }
+
+.log{
+  background: transparent;
+  border: none;
+}
+#adminForm {
+  position: fixed;
+  z-index: 1;
+  margin-top: 70px;
+  padding-bottom: 10px;
+  background: white;
+}
+
+
+/* ISPLANIRAJ OBROK  i NABAVKA NAMIRNICA*/
+ #btnParent .btn{
+  color: white;
+  background-color:#f7b190;
+}
+ #btnParent .btn:hover{
+  background-color:#ff7814;
+}
+#forma .container{
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#forma .container .row{
+  margin-bottom: 40px;
+}
+
+#forma .container .row:last-child{
+margin-bottom: 0px;
+}
+
+#forma #btnParent{
+padding: 0px;
+margin: 0 auto;
+position: relative;
+}
+
+/* KONTAKT */
+
+
+.contact-form {
+  padding: 50px;
+  padding-bottom: 0px;
+  margin: 30px 0;
+}
+.contact-form h1 {
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+.contact-form .form-control, .contact-form .btn  {
+  min-height: 38px;
+  border-radius: 2px;
+}
+
+.contact-form #btnParent .btn {
+  color: white;
+  background-color:#f7b190;
+  width: 27%;
+  display: block;
+  margin: 0px auto;
+}
+
+.contact-form .btn:hover {
+  background: #ff7814; 
+}
+.contact-form label {
+  opacity: 0.9;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.hint-text {
+  font-size: 15px;
+  padding-bottom: 15px;
+  opacity: 0.8;
+}
+.bs-example {
+  margin: 20px;
+}
+
+/***SIGN IN***/
+
+
+#formLogIn{
+  margin-top: 10%;
+  padding: 60px 15px;
+  background-color:#FFF7C6;
+}
+.s{
+  margin-top: 20px;
+}
+#logIn #btnParent .btn {
+  color: white;
+  background-color:#f7b190;
+  display: block;
+  margin: 0px auto;
+}
+
+#logIn #btnParent .btn:hover {
+  background: #ff7814; 
+}
+/***REGISTER***/
+#formRegister{
+  margin-top: 4.8%;
+  padding: 50px 15px;
+  background-color:#FFF7C6;
+}
+
+
+
+
+/***FOOTER***/
+
+footer {
+  background-color: #faf9f3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #ff7814;
+ }
+.fa {
+  width: 30px;
+  /*text-align: center;*/
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border-color:2px solid black;
+}
+
+.fa-facebook {
+  margin-left: 85em;
+}
+
+/* GRESKE */
+#greska404{
+  margin: 70px 10px;
+}
+
+.error{
+  color: rgb(255, 29, 29);
+}
+
+.success{
+  color:rgb(51, 219, 51);
+}
+
